@@ -6,12 +6,18 @@
 
 body {
   padding-top: 54px;
-  background-color: #60b063; 
+  background-color: #499958; 
+  background: linear-gradient(to bottom, #499958, #def9e3);
 }
-
+ /* Nav styles */
 nav.navbar {
   background-color: #def9e3 !important;
   border: 1rem solid #499958;
+}
+
+a.nav-link:hover {
+  background-color: #499958;
+  border-radius: .25rem;
 }
 
 .navbar-dark .navbar-toggler-icon{
@@ -24,9 +30,9 @@ nav div.container a {
 }
 
 header div.carousel-item {
+  background-attachment: fixed;
   background-size: 100% 100%;
-  /* background-size: contain; */
-
+s
 }
 
 .card-header {
@@ -40,6 +46,22 @@ div.card-body {
 div.card-footer {
   background-color: #def9e3;
 }
+
+#infoList {
+  list-style-type: none;
+}
+
+div.col-lg-6 img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+footer {
+  background: linear-gradient(to top, #499958, #def9e3);
+  color:
+}
+
 
 @media (min-width: 992px) {
   body {
@@ -60,3 +82,9 @@ div.card-footer {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+@media (max-width: 575.98px) { 
+  .navbar {
+    padding: 0;
+  }
+ }
