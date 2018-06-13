@@ -11,7 +11,9 @@ body {
 }
  /* Nav styles */
 nav.navbar {
-  background-color: #def9e3 !important;
+  background: radial-gradient(#499958, #def9e3) !important;
+
+  /* background-color: #def9e3 !important; */
   border: 1rem solid #499958;
 }
 
@@ -37,6 +39,7 @@ s
 
 .card-header {
   background-color: #def9e3;
+  background: linear-gradient(to right, #499958, #def9e3);
 }
 
 div.card-body {
@@ -45,6 +48,8 @@ div.card-body {
 
 div.card-footer {
   background-color: #def9e3;
+  background: linear-gradient(to left, #499958, #def9e3);
+
 }
 
 #infoList {
