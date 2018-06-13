@@ -6,6 +6,39 @@
 
 body {
   padding-top: 54px;
+  background-color: #60b063; 
+}
+
+nav.navbar {
+  background-color: #def9e3 !important;
+  border: 1rem solid #499958;
+}
+
+.navbar-dark .navbar-toggler-icon{
+  background-image: url(https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-vol-7/512/336-Bars_drawer_hamburger_menu_navigation_side_slide-512.png);
+}
+
+nav div.container a {
+  color: black !important;
+  font-weight: 500;
+}
+
+header div.carousel-item {
+  background-size: 100% 100%;
+  /* background-size: contain; */
+
+}
+
+.card-header {
+  background-color: #def9e3;
+}
+
+div.card-body {
+  background-color: #f0fbf2;
+}
+
+div.card-footer {
+  background-color: #def9e3;
 }
 
 @media (min-width: 992px) {
