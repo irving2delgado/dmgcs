@@ -9,13 +9,14 @@ body {
   background-color: #499958; 
   background: linear-gradient(to bottom, #499958, #def9e3);
 }
+
  /* Nav styles */
 nav.navbar {
   background: radial-gradient(#499958, #def9e3) !important;
-
-  /* background-color: #def9e3 !important; */
+  border-radius: .25rem;
   border: 1rem solid #499958;
 }
+
 
 a.nav-link:hover {
   background-color: #499958;
@@ -34,7 +35,7 @@ nav div.container a {
 header div.carousel-item {
   background-attachment: fixed;
   background-size: 100% 100%;
-s
+
 }
 
 .card-header {
@@ -64,7 +65,7 @@ div.col-lg-6 img {
 
 footer {
   background: linear-gradient(to top, #499958, #def9e3);
-  color:
+ 
 }
 
 
@@ -92,4 +93,12 @@ footer {
   .navbar {
     padding: 0;
   }
+ }
+
+
+ /**********  Insurances Page Styles ***********/
+
+ a  {
+   text-decoration: none;
+   color: black;
  }
